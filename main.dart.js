@@ -25729,7 +25729,7 @@ A.mp.prototype={
 bF(){$.bv.at$.push(new A.Ga(this))},
 xD(){this.eQ(new A.Gb(this))},
 aM(a){var s=null,r=t.nA
-return new A.qh(B.bd,B.wH,B.d2,B.hC,s,B.ha,s,A.a([new A.tA(new A.ji(10,10,10,10),new A.uu(B.a_,B.wI,B.d2,B.hC,s,B.ha,s,A.a([A.a_X("For   ",B.yX,B.h5,s),A.SU("assets/code_insider.png",8)],r),s),s),new A.lb(this.d,A.SU("assets/sg_logo.png",5),B.rH,B.bk,this.gKY(),s)],r),s)}}
+return new A.qh(B.bd,B.wH,B.d2,B.hC,s,B.ha,s,A.a([new A.tA(new A.ji(10,10,10,10),new A.uu(B.a_,B.wI,B.d2,B.hC,s,B.ha,s,A.a([A.a_X("For   ",B.yX,B.h5,s),A.SU("assets/res/code_insider.png",8)],r),s),s),new A.lb(this.d,A.SU("assets/res/sg_logo.png",5),B.rH,B.bk,this.gKY(),s)],r),s)}}
 A.Ga.prototype={
 $1(a){return this.a.xD()},
 $S:2}
