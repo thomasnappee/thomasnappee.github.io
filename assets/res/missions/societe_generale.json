@@ -1,0 +1,71 @@
+{
+    "company": "Société Générale",
+    "startDate": "sept-2021",
+    "endDate": "",
+    "missionContext": "Fullstack developer in Core team. The goal of this team is to do all the tasks related to the software architecture like refactor, migration or technical debt reduction",
+    "framework": "We work in an agile environment following the SCRUM method. Each day, we do a morning meeting and update tasks using JIRA.",
+    "softwares": 
+    [
+        {
+            "name": "FITS (Fixed Income Trading System)",
+            "architecture": "Event driven micro-services, component-based architecture with a rich, desktop client.",
+            "description": "FITS is a galaxy of highly configurable components. It serves the needs of bonds and swap traders from several locations. It allow traders to trade on D2C and D2D markets, hedge their positions, contribute on markets, with manual and automatic modes.",
+            "technicalStack": 
+            {
+                "language": "C#/.NET",
+                "framework": ".NET framework 4.5.8 to 4.8, .NET5 and 6, WPF",
+                "database": "Microsoft SQL",
+                "versionControl": "Github Enterprise",
+                "continuousIntegrationDeployment": "Teamcity, XLDeploy",
+                "testing": "Unit and acceptance tests using NUnit. Several simulator have been developed to simulate FITS environment."
+            }
+        },
+        {
+            "name": "Orderbook trading software",
+            "architecture": "MVC, REST API",
+            "description": "This software has been developed from scratch during a hackathon, then it has been enhanced as the PoC was accepted. It's a Web UI that allows traders to trade on D2D markets without the need to use FITS and pass through the entire configuration process. The UI communicate with a REST API. The server hosting the API depend on FITS libraries, enabling the client to interact with the FITS environment. The API handle requests/answers with controllers and uses SignalR for realtime datas",
+            "technicalStack": 
+            {
+                "language": "C#/.NET, React, Typescript",
+                "framework": "ASP.NET Core, .NET5"
+            }
+        }
+    ],
+    "tools":
+    {
+        "ide": "JetBrains Rider, Visual Studio Professional 2019/2022, Visual Studio Code",
+        "quality": "SonarQube, StyleCop"
+    },
+    "tasks":
+    [
+        {
+            "name": "Migration of Ultra Messaging library",
+            "description": "In order to optimize communication between FITS components, we had to replace Ultra Messaging by a library developed at Société Générale, TCP Messaging, with the constraint of having both implementations still in production that can be easily enabled/disabled."
+        },
+        {
+            "name": "Migration of an IOC library",
+            "description": "Because Unity was not maintained anymore, a library that wraps Unity and DryIOC (newly used library) has been developed in order to abstract the IOC technology that is used, and ease the migration of Unity. I contributed to the development, testing and migration across the FITS components."
+        },
+        {
+            "name": "Answer ECB requests",
+            "description": "With a strong legal framework, ECB imposes constraints that have an impact on the software behavior. I answered the following requests : stop market contribution when a trader unplug its smart card."
+        },
+        {
+            "name": "Support",
+            "description": "Each 2 weeks, a developer has to be in charge of handling production issues."
+        },
+        {
+            "name": "Reduce technical debt",
+            "description": "Quality of each component is monitored by SonarQube. As we have goals regarding testing and code quality, I contributed several time to technical debt reducing by reviewing several components and do the refactoring tasks needed."
+        },
+        {
+            "name": "Pair-programming and code reviews",
+            "description": "As the whole team working on FITS count tens of developers, we contribute to code by doing pull requests. For some tasks, we do pair-programming."
+        },
+        {
+            "name": "Non regression tests",
+            "description": "Twice a year, code is freezed and series of non regression tests are performed."
+        }
+    ]
+
+}
