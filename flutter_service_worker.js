@@ -26,8 +26,8 @@ const RESOURCES = {
 "assets/shaders/ink_sparkle.frag": "9fa6b13b0575f57bfb567a151163f9ad",
 "assets/AssetManifest.json": "85464c2ceee624f5938f1c80361fb163",
 "assets/NOTICES": "730c96676ebcab9af2609914ec2f3660",
-"index.html": "367cb3c63a11d1c73ef5649d46ddcdbb",
-"/": "367cb3c63a11d1c73ef5649d46ddcdbb",
+"index.html": "f2ddd99823e925f7ee29cb9b126192c8",
+"/": "f2ddd99823e925f7ee29cb9b126192c8",
 "main.dart.js": "4aeb1a0c160d5457ba886f8b67cd8958"
 };
 
