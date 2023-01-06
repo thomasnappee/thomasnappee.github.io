@@ -17,16 +17,18 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/res/missions/societe_generale.json": "48b0be3cede0b83de3786cfd00859927",
+"assets/res/missions/renault.json": "4de15669fc75c46c41f4f3fa6d92e78a",
 "assets/res/sg_logo.png": "26ea892b9274e828901e331453a03954",
 "assets/res/code_insider.png": "462be19c9aa976d5e6912c72e92a18e3",
+"assets/res/renault_logo.png": "542178f22307e0fa7bb00baa90ad2678",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/shaders/ink_sparkle.frag": "9fa6b13b0575f57bfb567a151163f9ad",
-"assets/AssetManifest.json": "8fa81227e5a32b5683d116a4a66c47ba",
+"assets/AssetManifest.json": "85464c2ceee624f5938f1c80361fb163",
 "assets/NOTICES": "730c96676ebcab9af2609914ec2f3660",
-"index.html": "014ccb196e62e0ed32495349942971ac",
-"/": "014ccb196e62e0ed32495349942971ac",
-"main.dart.js": "0daa94e8de259b41713f4db6f10ec626"
+"index.html": "367cb3c63a11d1c73ef5649d46ddcdbb",
+"/": "367cb3c63a11d1c73ef5649d46ddcdbb",
+"main.dart.js": "4aeb1a0c160d5457ba886f8b67cd8958"
 };
 
 // The application shell files that are downloaded before a service worker can

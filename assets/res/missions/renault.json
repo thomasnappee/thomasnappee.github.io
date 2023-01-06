@@ -1,0 +1,55 @@
+{
+    "company": "Renault",
+    "startDate": "sept-2018",
+    "endDate": "sept-2021",
+    "missionContext": "Informatics System Engineer in apprenticeship. I worked on a software that manage tests vehicles demands for the Performance & Consumption service.",
+    "framework": "I worked alone as a full stack developer on this software. My master learning managed me and gave me directions to follow to answer user needs",
+    "softwares": 
+    [
+        {
+            "name": "Master Plan",
+            "architecture": "MVVM",
+            "description": "Master Plan is a software that helps in managing tests vehicles demands. It's a heavy client used by several users around the world. It helps you to create demands, follow (client side) or handle demands, and provide several informations and statistics about the demands. It produces several formatted Excel files or enable you to export datas stored in its database.",
+            "technicalStack": 
+            {
+                "language": "C#/.NET",
+                "framework": ".NET Core 3.1, WPF",
+                "database": "PostgreSQL",
+                "versionControl": "git",
+                "testing": "Unit and acceptance tests using NUnit"
+            }
+        }
+    ],
+    "tools":
+    {
+        "ide": "Visual Studio 2017"
+    },
+    "tasks":
+    [
+        {
+            "name": "UI redesign",
+            "description": "Lot of informations are shown to the user and basic widgets were used. I refined the user interface and followed Material Design rules to redesign every views of the software"
+        },
+        {
+            "name": "Code redesign",
+            "description": "Code was hardly maintainable. Duplications across the views, everything coded in a single file per views. I implemented the MVVM pattern and used SOLID principles to redesign de code."
+        },
+        {
+            "name": "Use an ORM",
+            "description": "Big part of the code was using a simple library to request database. Requests were built on the fly to manipulate objects with a lot of data. I implemented objects and used Entity Framework Core in code redesign to optimize object managements regarding the database"
+        },
+        {
+            "name": "Database migration",
+            "description": "Previous version of the software was using SQLite3, a file database shared between several users. I switched to PostgreSQL and redesigned the database design to fit objects implemented in code (code first), then coded a migration script to retrieve datas from the previous database"
+        },
+        {
+            "name": "Framework migration",
+            "description": "To use the most recent functionalities of the framework, I migrated it from .NET Framework to .NET Core"
+        },
+        {
+            "name": "New functionalities",
+            "description": "After the total redesign of the source code, I was able to develop new functionalities more complex, or quicker. I added more interactions between users and datas, a better way to sort or filter datas, more configurations for users and better data tracking"
+        }
+    ]
+
+}
